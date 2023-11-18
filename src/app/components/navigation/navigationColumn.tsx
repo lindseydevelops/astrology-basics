@@ -18,6 +18,7 @@ export default function NavigationColumn() {
             "hover:opacity-80 border-b-2 p-2 " +
             (pathname == item.pagePath ? " border-white" : "border-transparent")
           }
+          key={item.pageName}
         >
           {item.pageName}
         </Link>

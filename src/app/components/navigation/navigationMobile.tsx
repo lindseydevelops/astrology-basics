@@ -66,7 +66,7 @@ export default function NavigationMobile({
               }
             >
               {navList.navLinks.map((item: any, index: number) => (
-                <li className={"p-5"}>
+                <li className={"p-5"} key={item.pageName}>
                   <Link
                     href={item.pagePath}
                     className={

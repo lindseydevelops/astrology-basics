@@ -104,7 +104,7 @@ const AspectTabs = () => {
   return (
     <Tab.List className={"w-full flex flex-row justify-center pb-10 "}>
       {aspects.map((item: any, index: number) => (
-        <Tab as={Fragment}>
+        <Tab as={Fragment} key={item.aspect}>
           {({ selected }) => (
             <div className={"w-28 max-md:w-20"}>
               <Image
@@ -130,12 +130,15 @@ const AspectContent = () => {
   return (
     <Tab.Panels className={"w-full pt-10"}>
       {aspects.map((item: any, index: number) => (
-        <Tab.Panel className={"flex flex-col"}>
+        <Tab.Panel className={"flex flex-col"} key={item.aspect}>
           <div className={"w-full flex justify-center items-center"}>
             <div className={styles.houses}>
               <div className={styles.houses_divided}>
                 {houses.map((item: any, index: number) => (
-                  <div className={styles.divider + " " + item.houseStyle} />
+                  <div
+                    className={styles.divider + " " + item.houseStyle}
+                    key={item.aspect}
+                  />
                 ))}
               </div>
             </div>

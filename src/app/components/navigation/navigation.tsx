@@ -31,7 +31,7 @@ export default function Navigation() {
           }
         >
           {navList.navLinks.map((item: any, index: number) => (
-            <li>
+            <li key={item.pageName}>
               <Link
                 href={item.pagePath}
                 className={

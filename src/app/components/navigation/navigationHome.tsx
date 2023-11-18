@@ -15,11 +15,12 @@ export default function NavigationHome() {
   };
   const onNavClose = () => {
     document.body.classList.remove(navStyles.nav_active);
-    pathname == "/" ? null : (document.body.style.overflowY = "auto");
+    document.body.style.overflowY = "auto";
   };
   React.useEffect(() => {
     openNav ? onNavOpen() : onNavClose();
   }, [openNav]);
+
   return (
     <header>
       <nav className={"text-white flex flex-row"}>

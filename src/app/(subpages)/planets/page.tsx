@@ -253,7 +253,8 @@ export default function Planets() {
                 " " +
                 item.ringStyle
               }
-            ></div>
+              key={item.planet}
+            />
           ))}
         </div>
         <div
@@ -268,6 +269,7 @@ export default function Planets() {
                 " " +
                 item.ringStyle
               }
+              key={item.planet}
             >
               {index == 3 ? (
                 <MotionPlanetButton
