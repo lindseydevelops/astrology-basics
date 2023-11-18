@@ -232,7 +232,7 @@ export default function Signs() {
         }
       >
         {signs.map((item: any, index: number) => (
-          <SignCard sign={item} setOpenModal={setModal} />
+          <SignCard sign={item} setOpenModal={setModal} key={item.sign} />
         ))}
         {modal.show && modal.data && (
           <SignsModal

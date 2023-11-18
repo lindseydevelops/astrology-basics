@@ -61,7 +61,8 @@ export default function Galaxy() {
               " " +
               item.ringStyle
             }
-          ></div>
+            key={item.planet}
+          />
         ))}
       </div>
       <div
@@ -76,6 +77,7 @@ export default function Galaxy() {
               " " +
               item.ringStyle
             }
+            key={item.planet}
             initial={{ rotate: 0 }}
             animate={{ rotate: -360 }}
             transition={{ duration: item.duration, repeat: Infinity }}

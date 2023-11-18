@@ -205,7 +205,7 @@ export default function Houses() {
       <div className={styles.houses}>
         <div className={styles.houses_divided}>
           {houses.map((item: any, index: number) => (
-            <House item={item} setOpenModal={setModal} />
+            <House item={item} setOpenModal={setModal} key={item.house} />
           ))}
         </div>
       </div>
