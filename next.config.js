@@ -14,6 +14,7 @@ if (isGithubActions) {
 }
 
 const nextConfig = {
+  output: "export",
   sassOptions: {
     includePaths: [path.join(__dirname, "styles")],
   },
