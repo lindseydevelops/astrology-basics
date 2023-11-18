@@ -1,0 +1,241 @@
+@use "../colors" as color;
+
+$ring_0_diameter: 100px;
+$ring_1_diameter: 150px;
+$ring_2_diameter: 250px;
+$ring_3_diameter: 400px;
+$ring_4_diameter: 550px;
+$ring_5_diameter: 700px;
+$ring_6_diameter: 850px;
+$ring_7_diameter: 1000px;
+$ring_8_diameter: 1150px;
+$ring_9_diameter: 1300px;
+$ring_10_diameter: 1450px;
+
+.circle {
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.planet_icon_wrapper img{
+    position: absolute;
+    left:50%;
+    top:50%;
+}
+.ring {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    aspect-ratio: 1/1;
+}
+.ring_0 {
+    width: $ring_0_diameter;
+    aspect-ratio: 1/1;
+}
+.ring_1 {
+    width: $ring_1_diameter;
+    aspect-ratio: 1/1;
+}
+.ring_2 {
+    width: $ring_2_diameter;
+    aspect-ratio: 1/1;
+}
+.ring_3 {
+    width: $ring_3_diameter;
+    aspect-ratio: 1/1;
+  }
+.ring_4 {
+    width: $ring_4_diameter;
+    aspect-ratio: 1/1;
+}
+.ring_5 {
+    width: $ring_5_diameter;
+    aspect-ratio: 1/1;
+}
+.ring_6 {
+    width: $ring_6_diameter;
+    aspect-ratio: 1/1;
+}
+.ring_7 {
+    width: $ring_7_diameter;
+    aspect-ratio: 1/1;
+}
+.ring_8 {
+    width: $ring_8_diameter;
+    aspect-ratio: 1/1;
+}
+.ring_9 {
+    width: $ring_9_diameter;
+    aspect-ratio: 1/1;
+}
+.ring_10 {
+    width: $ring_10_diameter;
+    aspect-ratio: 1/1;
+}
+.galaxy_backdrop {
+    position: absolute;
+    .ring_0 {
+        z-index: -11;
+        background: radial-gradient(color.$base_sun, transparent 90%);
+    }
+    .ring_1 {
+        z-index: -12;
+        background: radial-gradient(transparent, color.$base_100);
+    }
+    .ring_2 {
+        z-index: -13;
+        background: radial-gradient(transparent, color.$base_200);
+    }
+    .ring_3 {
+        z-index: -14;
+        background: radial-gradient(transparent, color.$base_300);
+      }
+    .ring_4 {
+        z-index: -15;
+        background: radial-gradient(transparent, color.$base_400);
+    }
+    .ring_5 {
+        z-index: -16;
+        background-color: color.$base_500;
+    }
+    .ring_6 {
+        z-index: -17;
+        background-color: color.$base_600;
+    }
+    .ring_7 {
+        z-index: -18;
+        background-color: color.$base_700;
+    }
+    .ring_8 {
+        z-index: -19;
+        background-color: color.$base_800;
+    }
+    .ring_9 {
+        z-index: -20;
+        background-color: color.$base_900;
+    }
+}  
+.galaxy_foreground {
+    position: absolute;
+    .ring_0 {
+        z-index: 0;
+    }
+    .ring_1 {
+        z-index: -1;
+    }
+    .ring_2 {
+        z-index: -2;
+    }
+    .ring_3 {
+        z-index: -3;
+      }
+    .ring_4 {
+        z-index: -4;
+    }
+    .ring_5 {
+        z-index: -5;
+    }
+    .ring_6 {
+        z-index: -6;
+    }
+    .ring_7 {
+        z-index: -7;
+    }
+    .ring_8 {
+        z-index: -8;
+    }
+    .ring_9 {
+        z-index: -9;
+    }
+    .ring_10 {
+        z-index: -10;
+    }
+}
+
+.galaxy {
+    z-index: -2;
+    top:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+.planet_0{
+    position: absolute;
+}
+
+.planet_1{
+    left: 75%;
+    top: 75%;
+    position: absolute;
+}
+.planet_2{
+    left: 75%;
+    top: 75%;
+    position: absolute;
+}
+.planet_3{
+    left: 78%;
+    top: 78%;
+    position: absolute;
+    width: 50px;
+    aspect-ratio: 1/1;
+    .planet_inner {
+        left: 45%;
+        top: 67%;
+        position: absolute;
+    }
+}
+.planet_4{
+    left: 82%;
+    top: 82%;
+    position: absolute;
+}
+.planet_5{
+    left: 82%;
+    top: 82%;
+    position: absolute;
+}
+.planet_6{
+    left: 82%;
+    top: 82%;
+    position: absolute;
+}
+.planet_7{
+    left: 83%;
+    top: 83%;
+    position: absolute;
+}
+.planet_8{
+    left: 83%;
+    top: 83%;
+    position: absolute;
+}
+.planet_9{
+    left: 83.5%;
+    top: 83.5%;
+    position: absolute;
+}
+.planet_10{
+    left: 82%;
+    top: 82%;
+    position: absolute;
+}
+
+.planet_button:hover {
+    border-radius: 50%;
+    background: #FFFFFF;
+    opacity: 50%;
+    padding:3px;
+    animation: glow 2s linear infinite alternate;
+  }
+  
+  @keyframes glow{
+    to {
+      box-shadow: 0px 0px 2vw 2vw color.$base_highlight
+    }
+  }

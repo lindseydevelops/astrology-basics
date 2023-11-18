@@ -1,0 +1,152 @@
+$menu-icon-color: #FFFFFF;
+$menu-button-size: 40px;
+$menu-half-line: 20px;
+$menu-lines-active: 20px;
+$menu-active-background: #230ca3;
+$menu-active-background-after: #7209b7;
+
+.menu_button_wrapper {
+    transition : all 0.3s ease-out;
+}
+
+.menu_icon {
+	height: $menu-button-size;
+	width: $menu-button-size;
+	position: relative;
+	z-index: 32;
+	cursor: pointer;
+	display: block;
+}
+.menu_icon__line {
+	height: 2px;
+	width: $menu-button-size;
+	display: block;
+	background-color: $menu-icon-color;
+	margin-bottom: 7px;
+	cursor: pointer;
+	-webkit-transition: background-color .5s ease, -webkit-transform .2s ease;
+	transition: background-color .5s ease, -webkit-transform .2s ease;
+	transition: transform .2s ease, background-color .5s ease;
+	transition: transform .2s ease, background-color .5s ease, -webkit-transform .2s ease;
+}
+.menu_icon__line_left{
+	width: $menu-half-line;
+	-webkit-transition: all 200ms linear;
+	transition: all 200ms linear;
+}
+.menu_icon__line_right {
+	width: $menu-half-line;
+	float: right;
+	-webkit-transition: all 200ms linear;
+	-moz-transition: all 200ms linear;
+	-o-transition: all 200ms linear;
+	-ms-transition: all 200ms linear;
+	transition: all 200ms linear;
+}
+.menu_icon:hover .menu_icon__line_left,
+.menu_icon:hover .menu_icon__line_right {
+	width: $menu-button-size;
+}
+
+.mobile_nav_link__active{
+    text-decoration: line-through;
+}
+
+body.nav_active{
+    .menu_icon__line {
+        background-color: $menu-icon-color;
+        -webkit-transform: translate(0px, 0px) rotate(-45deg);
+              transform: translate(0px, 0px) rotate(-45deg);
+    }
+    .menu_icon__line_left {
+        width: $menu-lines-active;
+        -webkit-transform: translate(2px, 3px) rotate(45deg);
+              transform: translate(3px, 3px) rotate(45deg);
+    }
+    .menu_icon__line_right {
+        width: $menu-lines-active;
+        float: right;
+        -webkit-transform: translate(-3px, -1.5px) rotate(45deg);
+              transform: translate(-3px, -1.5px) rotate(45deg);
+    }
+    .menu_icon:hover .menu_icon__line_left, .menu_icon:hover .menu_icon__line_right {
+        width: $menu-lines-active;
+    }
+}
+
+.mobile_nav {
+    position: fixed;
+    z-index: 20;
+    &:before, &:after {
+        content: "";
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background: $menu-active-background;
+        border-bottom-left-radius: 200%;
+        z-index: -1;
+        -webkit-transition: -webkit-transform cubic-bezier(0.77, 0, 0.175, 1) 0.6s, border-radius linear 0.8s;
+        transition: -webkit-transform cubic-bezier(0.77, 0, 0.175, 1) 0.6s, border-radius linear 0.8s;
+        transition: transform cubic-bezier(0.77, 0, 0.175, 1) 0.6s, border-radius linear 0.8s;
+        transition: transform cubic-bezier(0.77, 0, 0.175, 1) 0.6s, -webkit-transform cubic-bezier(0.77, 0, 0.175, 1) 0.6s, border-radius linear 0.8s;
+        -webkit-transform: translateX(100%) translateY(-100%);
+              transform: translateX(100%) translateY(-100%);
+    }
+    &:after {
+        background: $menu-active-background-after;
+        -webkit-transition-delay: 0s;
+              transition-delay: 0s;
+    }
+    &:before {
+        background: $menu-active-background;
+        -webkit-transition-delay: 1s;
+              transition-delay: 1s;
+    }
+}
+
+body.nav_active {
+    .mobile_nav {
+        visibility: visible;
+        &:before, &:after {
+            -webkit-transform: translateX(0%) translateY(0%);
+            transform: translateX(0%) translateY(0%);
+            border-radius: 0;
+        }
+        &:after {
+            -webkit-transition-delay: 1s;
+            transition-delay: 1s;
+        }
+        &:before {
+            -webkit-transition-delay: 0s;
+            transition-delay: 0s;
+        }
+    }
+    .mobile_nav_content {
+        visibility: visible;
+    }
+}
+
+.mobile_nav_content {
+	position: fixed;
+    z-index:80;
+	visibility: hidden;
+	-webkit-transform: translate(0%, -50%);
+          transform: translate(0%, -50%);
+	width: 100%;
+	text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+
+.mobile_nav_list_item_active {
+   text-decoration: line-through; 
+}
+
+.mobile_nav_list {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    z-index: 2;
+}
