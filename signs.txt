@@ -1,14 +1,14 @@
 1:HL["/astrology-basics/_next/static/media/951ddaa7bb44ec37-s.p.ttf","font",{"crossOrigin":"","type":"font/ttf"}]
 2:HL["/astrology-basics/_next/static/css/c070da41079d3cc7.css","style",{"crossOrigin":""}]
 3:HL["/astrology-basics/_next/static/css/78c100ac05397bcf.css","style",{"crossOrigin":""}]
-0:["HQWQct2NNgjK_M8HPw6K3",[[["",{"children":["(subpages)",{"children":["signs",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],"$L4",[[["$","link","0",{"rel":"stylesheet","href":"/astrology-basics/_next/static/css/c070da41079d3cc7.css","precedence":"next","crossOrigin":""}],["$","link","1",{"rel":"stylesheet","href":"/astrology-basics/_next/static/css/78c100ac05397bcf.css","precedence":"next","crossOrigin":""}]],"$L5"]]]]
+0:["0tDgjyemPAvCsPNJoH4Dt",[[["",{"children":["(subpages)",{"children":["signs",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],"$L4",[[["$","link","0",{"rel":"stylesheet","href":"/astrology-basics/_next/static/css/c070da41079d3cc7.css","precedence":"next","crossOrigin":""}],["$","link","1",{"rel":"stylesheet","href":"/astrology-basics/_next/static/css/78c100ac05397bcf.css","precedence":"next","crossOrigin":""}]],"$L5"]]]]
 6:HL["/astrology-basics/_next/static/css/7ed2ee21fb9fff06.css","style",{"crossOrigin":""}]
 7:I[757,["754","static/chunks/754-ab8feab16022f19c.js","251","static/chunks/251-70cf6b9a1913d0ae.js","185","static/chunks/app/layout-76ca38ff509ff111.js"],""]
 8:I[6954,[],""]
 9:I[7264,[],""]
 a:I[1873,["754","static/chunks/754-ab8feab16022f19c.js","251","static/chunks/251-70cf6b9a1913d0ae.js","99","static/chunks/app/(subpages)/layout-63ae2c7dadc3c4de.js"],""]
 10:I[8297,[],""]
-11:I[1040,["754","static/chunks/754-ab8feab16022f19c.js","691","static/chunks/691-df760c3801c336bd.js","475","static/chunks/app/(subpages)/signs/page-b4d972568461934f.js"],""]
+11:I[1040,["754","static/chunks/754-ab8feab16022f19c.js","691","static/chunks/691-13e18b992519ebc7.js","475","static/chunks/app/(subpages)/signs/page-b4d972568461934f.js"],""]
 b:{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"}
 c:{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"}
 d:{"display":"inline-block"}
