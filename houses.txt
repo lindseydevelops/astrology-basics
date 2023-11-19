@@ -1,7 +1,7 @@
 1:HL["/astrology-basics/_next/static/media/951ddaa7bb44ec37-s.p.ttf","font",{"crossOrigin":"","type":"font/ttf"}]
 2:HL["/astrology-basics/_next/static/css/c070da41079d3cc7.css","style",{"crossOrigin":""}]
 3:HL["/astrology-basics/_next/static/css/78c100ac05397bcf.css","style",{"crossOrigin":""}]
-0:["rwkiKDUHFXkYrI0UfF4h1",[[["",{"children":["(subpages)",{"children":["houses",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],"$L4",[[["$","link","0",{"rel":"stylesheet","href":"/astrology-basics/_next/static/css/c070da41079d3cc7.css","precedence":"next","crossOrigin":""}],["$","link","1",{"rel":"stylesheet","href":"/astrology-basics/_next/static/css/78c100ac05397bcf.css","precedence":"next","crossOrigin":""}]],"$L5"]]]]
+0:["Yodex9S1J-l9nKckG5oIv",[[["",{"children":["(subpages)",{"children":["houses",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],"$L4",[[["$","link","0",{"rel":"stylesheet","href":"/astrology-basics/_next/static/css/c070da41079d3cc7.css","precedence":"next","crossOrigin":""}],["$","link","1",{"rel":"stylesheet","href":"/astrology-basics/_next/static/css/78c100ac05397bcf.css","precedence":"next","crossOrigin":""}]],"$L5"]]]]
 6:HL["/astrology-basics/_next/static/css/3da26c0f830f3bd0.css","style",{"crossOrigin":""}]
 7:I[757,["754","static/chunks/754-ab8feab16022f19c.js","251","static/chunks/251-70cf6b9a1913d0ae.js","185","static/chunks/app/layout-76ca38ff509ff111.js"],""]
 8:I[6954,[],""]
