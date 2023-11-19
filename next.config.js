@@ -22,7 +22,7 @@ const nextConfig = {
   basePath: basePath,
   images: {
     loader: "imgix",
-    path: "personal-135707729.imgix.net",
+    path: "https://personal-135707729.imgix.net",
   },
 };
 
