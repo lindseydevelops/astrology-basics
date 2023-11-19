@@ -21,8 +21,12 @@ const nextConfig = {
   assetPrefix: assetPrefix,
   basePath: basePath,
   images: {
-    loader: "imgix",
-    path: "https://personal-135707729.imgix.net",
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "personal-135707729.imgix.net",
+      },
+    ],
   },
 };
 
