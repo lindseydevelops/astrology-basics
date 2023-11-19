@@ -1,8 +1,0 @@
-{
-    "navLinks": [
-    { "pageName": "The Signs", "pagePath": "/signs" },
-    { "pageName": "The Planets", "pagePath": "/planets" },
-    { "pageName": "The Houses", "pagePath": "/houses" },
-    { "pageName": "The Aspects", "pagePath": "/aspects" }
-  ]
-}
