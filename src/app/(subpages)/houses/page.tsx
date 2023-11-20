@@ -193,7 +193,7 @@ export default function Houses() {
   }, [modal]);
 
   return (
-    <main className="flex flex-col h-full items-center justify-center p-10 max-md:p-5">
+    <main className="flex flex-col h-full items-center justify-center p-10 max-md:p-5 mb-20">
       <div className={"pb-5"}>
         <PageIntro
           header={"The Houses"}

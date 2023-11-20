@@ -117,9 +117,7 @@ export default function Modal({
               />
             </svg>
           </button>
-          <div className={"self-center justify-center h-screen"}>
-            {children}
-          </div>
+          <div className={"self-center justify-center h-full"}>{children}</div>
         </motion.div>
       </motion.div>
     </div>
