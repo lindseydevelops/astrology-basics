@@ -9,7 +9,7 @@ import PageIntro from "@/app/components/pageIntro";
 const signs = [
   {
     sign: "Aries",
-    signIconSrc: "/signs/Sign_Aries.png",
+    signIconSrc: "/signs/Sign_Aries.svg",
     modality: "Cardinal",
     element: "Fire",
     ruler: "Mars",
@@ -18,7 +18,7 @@ const signs = [
   },
   {
     sign: "Taurus",
-    signIconSrc: "/signs/Sign_Taurus.png",
+    signIconSrc: "/signs/Sign_Taurus.svg",
     modality: "Fixed",
     element: "Earth",
     ruler: "Venus",
@@ -27,7 +27,7 @@ const signs = [
   },
   {
     sign: "Gemini",
-    signIconSrc: "/signs/Sign_Gemini.png",
+    signIconSrc: "/signs/Sign_Gemini.svg",
     modality: "Mutable",
     element: "Air",
     ruler: "Mercury",
@@ -36,7 +36,7 @@ const signs = [
   },
   {
     sign: "Cancer",
-    signIconSrc: "/signs/Sign_Cancer.png",
+    signIconSrc: "/signs/Sign_Cancer.svg",
     modality: "Cardinal",
     element: "Water",
     ruler: "Moon",
@@ -45,7 +45,7 @@ const signs = [
   },
   {
     sign: "Leo",
-    signIconSrc: "/signs/Sign_Leo.png",
+    signIconSrc: "/signs/Sign_Leo.svg",
     modality: "Fixed",
     element: "Fire",
     ruler: "Sun",
@@ -54,7 +54,7 @@ const signs = [
   },
   {
     sign: "Virgo",
-    signIconSrc: "/signs/Sign_Virgo.png",
+    signIconSrc: "/signs/Sign_Virgo.svg",
     modality: "Mutable",
     element: "Earth",
     ruler: "Mercury",
@@ -63,7 +63,7 @@ const signs = [
   },
   {
     sign: "Libra",
-    signIconSrc: "/signs/Sign_Libra.png",
+    signIconSrc: "/signs/Sign_Libra.svg",
     modality: "Cardinal",
     element: "Air",
     ruler: "Venus",
@@ -72,7 +72,7 @@ const signs = [
   },
   {
     sign: "Scorpio",
-    signIconSrc: "/signs/Sign_Scorpio.png",
+    signIconSrc: "/signs/Sign_Scorpio.svg",
     modality: "Fixed",
     element: "Water",
     ruler: "Mars",
@@ -81,7 +81,7 @@ const signs = [
   },
   {
     sign: "Sagittarius",
-    signIconSrc: "/signs/Sign_Sagittarius.png",
+    signIconSrc: "/signs/Sign_Sagittarius.svg",
     modality: "Mutable",
     element: "Fire",
     ruler: "Jupiter",
@@ -90,7 +90,7 @@ const signs = [
   },
   {
     sign: "Capricorn",
-    signIconSrc: "/signs/Sign_Capricorn.png",
+    signIconSrc: "/signs/Sign_Capricorn.svg",
     modality: "Cardinal",
     element: "Earth",
     ruler: "Saturn",
@@ -99,7 +99,7 @@ const signs = [
   },
   {
     sign: "Aquarius",
-    signIconSrc: "/signs/Sign_Aquarius.png",
+    signIconSrc: "/signs/Sign_Aquarius.svg",
     modality: "Fixed",
     element: "Air",
     ruler: "Saturn",
@@ -108,7 +108,7 @@ const signs = [
   },
   {
     sign: "Pisces",
-    signIconSrc: "/signs/Sign_Pisces.png",
+    signIconSrc: "/signs/Sign_Pisces.svg",
     modality: "Mutable",
     element: "Water",
     ruler: "Jupiter",
@@ -219,7 +219,7 @@ export default function Signs() {
   }, [modal]);
 
   return (
-    <main className="grid p-10 max-md:p-5 w-full">
+    <main className="grid p-10 max-md:p-5 w-full mb-20">
       <PageIntro
         header={"The Signs"}
         content={

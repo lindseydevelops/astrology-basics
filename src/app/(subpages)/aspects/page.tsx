@@ -172,7 +172,7 @@ const AspectContent = () => {
 
 export default function Aspects() {
   return (
-    <main className="flex flex-col items-center justify-between p-10 max-md:p-5">
+    <main className="flex flex-col items-center justify-between p-10 max-md:p-5 mb-20">
       <PageIntro
         header={"The Aspects"}
         content={

@@ -99,8 +99,8 @@ body.nav_active{
     }
     &:before {
         background: $menu-active-background;
-        -webkit-transition-delay: 1s;
-              transition-delay: 1s;
+        -webkit-transition-delay: 0.2s;
+              transition-delay: 0.2;
     }
 }
 
@@ -113,8 +113,8 @@ body.nav_active {
             border-radius: 0;
         }
         &:after {
-            -webkit-transition-delay: 1s;
-            transition-delay: 1s;
+            -webkit-transition-delay: 0.2s;
+            transition-delay: 0.2s;
         }
         &:before {
             -webkit-transition-delay: 0s;
@@ -133,10 +133,10 @@ body.nav_active {
 	-webkit-transform: translate(0%, -50%);
           transform: translate(0%, -50%);
 	width: 100%;
+    height: 100%;
 	text-align: center;
     display: flex;
     justify-content: center;
-    height: 100%;
     align-items: center;
 }
 

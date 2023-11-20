@@ -11,7 +11,7 @@ export default function PageLayout({
   return (
     <div>
       <Navigation />
-      <div className={"mb-20"}>{children}</div>
+      <div className={""}>{children}</div>
       <footer className={"w-full flex justify-center align-center "}>
         <div className={"w-full p-5 text-center hover:opacity-80"}>
           <Link

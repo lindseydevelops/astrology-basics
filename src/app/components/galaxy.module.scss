@@ -239,3 +239,9 @@ $ring_10_diameter: 1450px;
       box-shadow: 0px 0px 2vw 2vw color.$base_highlight
     }
   }
+
+.planets_page {
+    .planet {
+        z-index: 20;
+    }
+}
