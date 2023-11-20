@@ -116,32 +116,42 @@ const houses = [
   },
 ];
 
-const House = ({ item, setOpenModal }: { item: any; setOpenModal: any }) => {
+const House = ({
+  item,
+  setOpenModal,
+  style,
+}: {
+  item: any;
+  setOpenModal: any;
+  style: any;
+}) => {
   return (
-    <div className={styles.divider + " " + item.houseStyle}>
-      <div className={styles.house_button_container}>
-        <button
-          className={styles.house_button}
-          onClick={() =>
-            setOpenModal({
-              show: true,
-              data: {
-                house: item.houseTitle,
-                nativeRuler: item.nativeRuler,
-                nativeSign: item.nativeSign,
-                traits: item.traits,
-                focus: item.focus,
-              },
-            })
-          }
+    <div
+      className={
+        styles.house_button_container + " " + styles.house_divider + " " + style
+      }
+    >
+      <button
+        className={styles.house_button}
+        onClick={() =>
+          setOpenModal({
+            show: true,
+            data: {
+              house: item.houseTitle,
+              nativeRuler: item.nativeRuler,
+              nativeSign: item.nativeSign,
+              traits: item.traits,
+              focus: item.focus,
+            },
+          })
+        }
+      >
+        <span
+          className={"text-xl max-md:text-lg max-sm:text-md max-xs:text-sm"}
         >
-          <span
-            className={"text-xl max-md:text-lg max-sm:text-md max-xs:text-sm"}
-          >
-            {item.house}
-          </span>
-        </button>
-      </div>
+          {item.house}
+        </span>
+      </button>
     </div>
   );
 };
@@ -205,7 +215,18 @@ export default function Houses() {
       <div className={styles.houses}>
         <div className={styles.houses_divided}>
           {houses.map((item: any, index: number) => (
-            <House item={item} setOpenModal={setModal} key={item.house} />
+            <div
+              className={styles.divider + " " + item.houseStyle}
+              key={item.house}
+            />
+          ))}
+          {houses.map((item: any, index: number) => (
+            <House
+              item={item}
+              setOpenModal={setModal}
+              key={item.house}
+              style={item.houseStyle}
+            />
           ))}
         </div>
       </div>
