@@ -22,11 +22,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body
-        className={bodyFont.className + " bg-base text-white overflow-x-hidden"}
-      >
-        <NavigationHome />
-        <div>{children}</div>
+      <body className={bodyFont.className + " bg-base text-white"}>
+        <div className={"overflow-x-clip"}>
+          <NavigationHome />
+          <div>{children}</div>
+        </div>
       </body>
     </html>
   );

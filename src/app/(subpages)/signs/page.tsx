@@ -133,7 +133,7 @@ const SignCard = ({ sign, setOpenModal }: { sign: any; setOpenModal: any }) => {
           styles.sign +
           " " +
           sign.elementClass +
-          " h-52 w-full flex flex-col justify-center items-center shadow-md rounded-md min-h-full"
+          " h-52 w-full flex flex-col justify-center items-center shadow-md rounded-md min-h-full hover:-translate-y-3"
         }
         onClick={() =>
           setOpenModal({
