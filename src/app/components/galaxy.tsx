@@ -46,6 +46,34 @@ const home_page_planets = [
     iconWrapperStyle: galaxyStyles.planet_5,
     duration: 15,
   },
+  {
+    planet: "Saturn",
+    planetImgSrc: "/planets/Planet_Saturn.svg",
+    ringStyle: galaxyStyles.ring_6,
+    iconWrapperStyle: galaxyStyles.planet_6,
+    duration: 17,
+  },
+  {
+    planet: "Uranus",
+    planetImgSrc: "/planets/Planet_Uranus.svg",
+    ringStyle: galaxyStyles.ring_7,
+    iconWrapperStyle: galaxyStyles.planet_7,
+    duration: 19,
+  },
+  {
+    planet: "Neptune",
+    planetImgSrc: "/planets/Planet_Neptune.svg",
+    ringStyle: galaxyStyles.ring_8,
+    iconWrapperStyle: galaxyStyles.planet_8,
+    duration: 22,
+  },
+  {
+    planet: "Pluto",
+    planetImgSrc: "/planets/Planet_Pluto.svg",
+    ringStyle: galaxyStyles.ring_9,
+    iconWrapperStyle: galaxyStyles.planet_9,
+    duration: 24,
+  },
 ];
 
 export default function Galaxy() {

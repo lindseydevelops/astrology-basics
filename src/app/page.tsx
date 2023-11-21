@@ -5,7 +5,7 @@ import * as React from "react";
 
 export default function Home() {
   return (
-    <main className="flex items-center">
+    <main className="flex items-center overflow-hidden">
       <div className={"flex flex-row max-md:flex-col w-full home-temp-contain"}>
         <div
           className={
@@ -15,6 +15,9 @@ export default function Home() {
           <h1 className={"text-5xl max-md:my-10 max-sm:mb-5"}>
             You are more than your Sun sign.
           </h1>
+          <span className={"text-lg pt-5 max-md:pt-0"}>
+            Learn the Basics of Astrology
+          </span>
           <NavigationColumn />
         </div>
         <div className={"w-1/2 max-md:w-full flex items-center"}>

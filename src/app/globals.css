@@ -41,9 +41,10 @@ header {
 
 @media screen and (max-width: 768px) {
   .intro::after {
-    @apply shadow-md content-none absolute h-1/2 max-sm:h-3/5 left-0 right-0 block bg-inherit origin-left skew-y-6 max-sm:skew-y-12;
+    @apply shadow-md content-none absolute h-1/2 max-md:h-3/5 max-sm:h-2/5 left-0 right-0 block bg-inherit origin-left skew-y-6 max-sm:skew-y-12;
     content: '';
     z-index: -1;
+    overflow: hidden;
   }
 }
 
