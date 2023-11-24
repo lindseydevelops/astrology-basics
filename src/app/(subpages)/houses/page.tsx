@@ -208,11 +208,11 @@ export default function Houses() {
         <PageIntro
           header={"The Houses"}
           content={
-            "The Houses represent the different areas of your life such as your career, relationships, home, family, and friends. In order to figure out your house placements - you must have an accurate birth time. Click on one of the House numbers on the houses chart below to learn more about each house."
+            "The Houses represent the different areas of your life such as your career, relationships, home, family, and friends. In order to figure out your house placements - you must have an accurate birth time. Your rising sign/ascendant is where you first house begins. Click on one of the House numbers on the houses chart below to learn more about each house."
           }
         />
       </div>
-      <div className={styles.houses}>
+      <div className={styles.houses + " overflow-x-hidden"}>
         <div className={styles.houses_divided}>
           {houses.map((item: any, index: number) => (
             <div

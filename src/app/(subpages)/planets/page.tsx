@@ -111,7 +111,7 @@ const PlanetsModal = ({
             src={data.planetImgSrc}
             width={80}
             height={80}
-            className={"sign-icon p-2"}
+            className={"sign-icon p-2 max-h-24"}
             alt="planet sign icon"
           />
         </div>
@@ -146,7 +146,12 @@ const PlanetButton = ({
           },
         })
       }
-      className={galaxyStyles.planet_button + " " + galaxyStyles.planet}
+      className={
+        galaxyStyles.planet_button +
+        " " +
+        galaxyStyles.planet +
+        " rotate-90 max-md:rotate-0"
+      }
     >
       <Image
         src={planet.planetImgSrc}
@@ -244,7 +249,8 @@ export default function Planets() {
       />
       <div
         className={
-          "relative rotate-45 -z-10 mt-10 " + galaxyStyles.planets_page
+          "relative -rotate-45 max-md:rotate-45 -left-1/4 max-lg:-left-1/2 max-md:left-0 max-md:scale-150 top-20 -z-10 mt-10 transition ease-in-out delay-150 " +
+          galaxyStyles.planets_page
         }
       >
         <div

@@ -7,7 +7,7 @@ $outer_cicle_color: color.$base_400;
 $button_glow: color.$base_highlight;
 
 $max_houses_radius: 500px;
-$houses_radius: 80vw;
+$houses_radius: 76vw;
 :export {
   max_houses_radius: $max_houses_radius;
   houses_radius: $houses_radius;
@@ -46,6 +46,7 @@ $houses_radius: 80vw;
     max-height: calc(($max_houses_radius/2) - 2px);
     height: calc(($houses_radius/2) - 2px);
     left: calc(50%);
+    width:0;
     top: inherit;
     position: absolute;
     transform-origin: 0 100%;
@@ -53,17 +54,28 @@ $houses_radius: 80vw;
     aspect-ratio: 1/1;
   }
 }
+
 .house_button_container{
   display: flex;
   &:before, &:after {
     content: "";
     max-width: calc(36px);
     width: calc($houses_radius/10);
-    min-width: (calc($houses_radius/20));
+    min-width: (calc($houses_radius/24));
     display: inline-block;
     aspect-ratio: 1/1;
   }
 }
+@media screen and (max-width: 768px){
+  .house_button_container{
+    &:before, &:after {
+      max-width: calc(36px);
+      width: calc($houses_radius/12);
+      min-width: (calc($houses_radius/14));
+    }
+  }
+}
+
 .house_button {
   border-radius: 50%;
   background: radial-gradient($inner-circle-color, $button_glow);
@@ -72,7 +84,6 @@ $houses_radius: 80vw;
   transform: rotate(15deg);
   aspect-ratio: 1/1;
 }
-
 .house_1 {
   --percent: -120;
 }

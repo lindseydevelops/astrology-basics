@@ -1,4 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
-  <image width="48" height="48" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAACpElEQVR4nO2Z24tNcRTHfzPIdczUDPI4TJESNWnyF4gXuT0RNXnx4JYHoTSaIc2TpqQw/gA1GIqi1EThzYNIiVwiD2rklutHq/ntWrP9zpw9Z6997F37U/vl7HO+37X277LWbx/nSkpKSkqKBjAX2A0crHJtAxpc3gDOk5ytruAJ9Li8ATQB+4GT6uoHRguRQBygAThTmBHQAI3AYCzoD4VIgPCTl2SO5T6BCYJvlKDrlgAwBVgIrARWA4uBGTVMm0H53N/PNgFgNtANXAa+BBbeD+AucBiYP5ngM00AmAbsAt6SnG/AgN86qwYvAPvU/b3OAqANGKkQ5DvgIXAPeAX8CnznBTBULXjBJ3vOX00uLUAH8Dxm/tIXo0WB77f6PkYSqkQweHOAZuCJMpanewSYnvD3m2L7unCpLsELwDVl/BlY62obwadKR0ZzjssaYJ0y/QNsTKHVERuJU7bRhguNLMyIAQPNzUrvKzDPJtqw2Spl9tHCzD+U+0r3kE20YbNeZXTWUHe70h2x0g0Z3VFG6w1121Sd+F6t7UhjJIUnot1YW4pdxD91xMpE9zizjLUfKO0uS21too93zcbaendbYamtTXT1XWqs/V5pL7DU1iY3lEm3oa4UtIhPmbUU0sYqo2FD3QNKd8hKN2TU7tsH/La33EBzJvBaJbDDJtrKhnLiiriZdriBo0rvjSRkF23YcAnwU5keT6G1JnbQ2WkbbbKWQqbUicmOhG/ipBWPuA1MzS7q8eZyjr3CeG4lWRNyoAdOq7UUnQVa6xJ87C1EPInfwFWZCsAyoMUvUtkmNwAX/DapeSz33f+AsZHoq3BgT8KwdUWvCanKwMXYtJiIR8AWlzcYqxN7gOt+aoz6U9Yz//pF3m925vIflpKSkhJnxV9UulVUL+uhLwAAAABJRU5ErkJggg=="/>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 104 104">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 4px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="g844">
+      <g id="g836">
+        <path id="path4" class="cls-1" d="m59.36,44.64L102,2"/>
+        <path id="path6" class="cls-1" d="m78.21,2h23.79v23.79"/>
+      </g>
+      <path id="path2-5" class="cls-1" d="m69.21,68.39c0-9.27-3.77-17.67-9.85-23.75-6.08-6.08-14.49-9.85-23.75-9.85-18.54,0-33.61,15.07-33.61,33.61s15.07,33.61,33.61,33.61,33.61-15.07,33.61-33.61Z"/>
+    </g>
+  </g>
 </svg>

@@ -169,14 +169,20 @@ $ring_10_diameter: 1450px;
 }
 
 .planet_1{
-    left: 75%;
-    top: 75%;
+    left: 66%;
+    top: 65%;
     position: absolute;
+    img {
+        max-height:50px;
+    }
 }
 .planet_2{
     left: 75%;
     top: 75%;
     position: absolute;
+    img {
+        max-height:50px;
+    }
 }
 .planet_3{
     left: 78%;
@@ -188,56 +194,74 @@ $ring_10_diameter: 1450px;
         left: 45%;
         top: 67%;
         position: absolute;
+        img {
+            max-height:50px;
+        }
     }
 }
 .planet_4{
     left: 82%;
     top: 82%;
     position: absolute;
+    img {
+        max-height:50px;
+    }
 }
 .planet_5{
     left: 82%;
     top: 82%;
     position: absolute;
+    img {
+        max-height:50px;
+    }
 }
 .planet_6{
     left: 82%;
     top: 82%;
     position: absolute;
+    img {
+        max-height:50px;
+    }
 }
 .planet_7{
     left: 83%;
     top: 83%;
     position: absolute;
+    img {
+        max-height:50px;
+    }
 }
 .planet_8{
     left: 83%;
     top: 83%;
     position: absolute;
+    img {
+        max-height:50px;
+    }
 }
 .planet_9{
     left: 83.5%;
     top: 83.5%;
     position: absolute;
+    img {
+        max-height:50px;
+    }
 }
 .planet_10{
     left: 82%;
     top: 82%;
     position: absolute;
+    img {
+        max-height:50px;
+    }
 }
 
 .planet_button:hover {
     border-radius: 50%;
     opacity: 50%;
     padding:3px;
-    animation: glow 2s linear infinite alternate;
   }
   
-  @keyframes glow{
-    to {
-      box-shadow: 0px 0px 2vw 2vw color.$base_highlight
-    }
-  }
 
 .planets_page {
     .planet {
