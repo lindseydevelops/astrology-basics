@@ -102,7 +102,7 @@ const aspects = [
 
 const AspectTabs = () => {
   return (
-    <Tab.List className={"w-full flex flex-row justify-center pb-10 "}>
+    <Tab.List className={"w-full flex flex-row justify-center pb-10"}>
       {aspects.map((item: any, index: number) => (
         <Tab as={Fragment} key={item.aspect}>
           {({ selected }) => (
@@ -152,6 +152,7 @@ const AspectContent = () => {
                 src={item.imgAngleSrc}
                 width={560}
                 height={560}
+                objectFit="contain"
                 alt="aspect angle view"
               />
             </motion.div>

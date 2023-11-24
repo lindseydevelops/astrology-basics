@@ -1,4 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 50 50">
-  <image width="50" height="50" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADgklEQVR4nO2YWWxNURSGT6qqjaatoVrCkwiJOZRIlRBV4knEGENjFjUPDU+miHgwtDQkQvFCxAMN6okHRHjpgzmqWmJITIlSU/vJji05Vve97hnu7bnJ/ZOT3Jy19r/Wf/a+e629LctnAD2AFcAl4CHQCHzWv9W75UB3K6gAugB7gG/8Hz+Ao0CuFSQA+cBbnOMdMM4KAoAZwHfcQ42d3tYiRgJNhuQeAeuA/kBH/QwA1gOPDf5fgby2EpEG1IuEfgGlQHKYce2BrUCzGFsHpMZWxZ+ENotEWoCZDsbP1mPs2BjdrFsn0c7w597rgmef4HijuKOTtTmBMSKB90CGC54s4IPgGu13sknAICDbYNspgh/zEOe44Npu8MnWuSS5EXFZE38BJgh7pQi+wIOQYsF1QtgL9a6G7gwiFwMMFuRVwl4t7EUehBQJrmphrxL2IU7IR4jBd4T9vLBP9SBkmuA6J+x3hT3yegP0E4Nrhb1c2Es9CNkiuMqE/Zmw93Va7JpFoetgsy8R5Lc8CLktuBbZbKk69l+onNKcBqgVAQpstlxDZR7rQsR4wdEM5ITZ5p86jaFITgmS3cJ+1dBfZTng7wQ8ERxXhI86FthR6UbIHEFSb++hgGGGFuMG0DUC7m7ATcNsDLX5JAMNwmeWGyHpuobYsVT4VNAaL4B5plZDJzcfeGkYVy58lwm7OmmmOxaiyY4IsleqJRed7HVCH5rOqB5MP2f1OxOuKS7r34/4WvhUuBKhCfvoY6kd+4VPplrbuIfqIDIF50HD4au3ayGatMwQvNjQDe+wtRKRQPluk0sQWGjwPeBJhO2LPxfE6oKh0ODbCzis2/FQUEvmENDTMH6i4fKizk1nHUpMgWGJ/QRWhmk684C5wCb9qN/DQzV9QInmlEsq3xcRtkCLDdutwkkv91T6Huy0gbdFLTNfRdiCrg4hplGfUTo7vAfbZdji0TFKoiJCFErTzQl6fV8AVgGjVLsBpOgnR79TtothrpCaXBU+l2LU1U4N/uOevbrHSkwH/Sf+5IOAj+oGBUiJqQghKEMn8cCFgPvABt+2V78ADATW6nbEtPRqdNuyRvla8QIErHgFCSEBQ2JGgoa4mBFgSogjq1uoI/LkthCiAvuNhoQQt1DLwOdZUVc/k6wgQmZqxStICAkYEjMSNCRmJGgQdSb2VdvyCbaiGfVi9xu+S1yagAvKFgAAAABJRU5ErkJggg=="/>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 79 102">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 1;
+        stroke-width: 4px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="surface1">
+      <path class="cls-1" d="m39.5,102v-62.5"/>
+      <path class="cls-1" d="m14.5,64.5h50"/>
+      <path class="cls-1" d="m2,2c0,20.7,16.8,37.5,37.5,37.5S77,22.7,77,2"/>
+      <path class="cls-1" d="m52,14.5c0-6.91-5.59-12.5-12.5-12.5s-12.5,5.59-12.5,12.5,5.59,12.5,12.5,12.5,12.5-5.59,12.5-12.5Z"/>
+    </g>
+  </g>
 </svg>
