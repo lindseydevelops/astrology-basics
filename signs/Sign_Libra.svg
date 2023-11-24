@@ -1,4 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
-  <image width="64" height="64" transform="scale(.75)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAD7ElEQVR4nO2bX4hUVRzHP3MZQmSQpUQ36UEsLBYRNeghLSxCSgRBKkEI6TV6kEDoqRfZJ32ql0CMIHwSdxGCZaV/mxFaaH/wQaJEZEkQMsXMtab99nBmbNh2zrnnN+feOzrzgctlOOd3fr/znXPO/Z1zZ2qSGGTqJfl5AtgCPAmsBR4BlgONVvn11vUr8BPwLfAVcKHowGoFjoAx4HXgZWC1sY2LwATwEfBjmrAWICn19bykT5WeGUkvpo43ZWNrJU0X0PGFzEhanyruLMEgyoB9wA/AtgTthXgWt0a8AzzQa2O9rgEjwBFgV6+BGPkSeAW4am2gFwFGgSlgg7WBRPwMvNS6R2MVYBXwOe6R1g/MAs9hEMEiwAgwA6yPNSyYi8AzuFwiN7GLYB04Sv91HmANMAksiTGKFeAtYHukTZk8BYzHGMRMgTHgLJEKV0AT2Ax8k6dyjADTpHnOXwI+weUN13HTagR4vNX+mgQ+vsatB/PBmjkzpq0JMrhTkl6QlHn8ZHKp9KkE/rZ7/ESnwlM9BHJH0hvyd3wxId6UdLsHvzN5fOUJZrWkv41B3JIbPdZcfZukm0bf/0haF/KR5ynwKrZzg3lgN/CFwbbNSWAveeby/8mA1/JUCrHT4BzgXeBjo20nE8D7RtsdoQqhp0AD+I34Xdc14FHcKp+CB4FfcE+LGOaBh/FslkIjYBO2LeeHpOs8OEE/MNhlBDZrIQGsm53jRjsfx4x2j/kKQwLEDjmAOeCcwS7E9622Y1npKwwJYDkxuoYt0BBz2A4+Gr7CFEdiCynyqN0irLePRQiwhGJEyIBlBrtmqFEffxkcNrAFGmIEWGGw+91XGBLAMucy3Fug1GzBNmJnfYWhBq1vY4IpqIHdRjvv67VQJlgHruDe48XQBDYC5yPtujEGfEd8UjYHPAT82a1CaAQ0gc8inYIT7r0c7edt6zC2jPQ0ns5DvgAnDY4BtgIHjLadHASeNtqGY8+xJ29IumHck0vS2zl8dLvGe/B7R9JoyEf79CV0He4hEEk6lieYjmtU0vEEPoN9q0k6g1tk2slL+56RNlHaDxzKWfcosCeh73n+O1Rpdtwv14GlBPLlhEFUReeX2ZmlLi0iFe5GlQJ0pUwB+pIyBfBuSqpiOAJK9BWzBpT1872+FaA0hlOgRF/DRbAfGXgBapKWUc6q+wf5zxhXEE7PfVNqsbLO/cDdekX+WPqeYOCnwFCAqgOomjpwAvePjqz1uXNBTH0oshiW/CDWZrEFEGC2jjsN8r5Cvo+pD/wUaA/7gWU4AujTTUpZDEdA1QFUzXAKVB1A1QwFYMCnQE3SKhL8A/Mepfkvte2tqSmhUeEAAAAASUVORK5CYII="/>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-2 {
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 4px;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" width="100" height="100"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="surface1">
+      <path id="path7" class="cls-2" d="m8.33,70.83h83.33"/>
+      <g class="cls-3">
+        <g id="g11">
+          <path id="path9" class="cls-2" d="m8.33,50h20.83c0-11.51,9.33-20.83,20.83-20.83s20.83,9.33,20.83,20.83h20.83"/>
+        </g>
+      </g>
+    </g>
+  </g>
 </svg>

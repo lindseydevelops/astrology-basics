@@ -1,4 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 50 50">
-  <image width="50" height="50" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADcUlEQVR4nO2aW0tUURTHN2hOoIWXshehXjIRSvsOYQRGPZhIfQYl+hZeqMToMXs2y/JC9Q0iQsEoR+2py1NTpL2UE/1i5Xo4bveZmTP7nDOH6A8HnHGddWFd99pjzH/8owBagEvAOLAE5IGvwE995O81/d+40jabLADIAdeAZ8AvokPeeQpcFV6mBgYcBG4An4gPH4HrwjstIy4A70gOm8D5pL1wt4wSy8AEMACc0bw5oE+LfjegNCtleN2JPdyAY8CrEIFbwChwqgq+XcCY8nDhJdAelxEn1N02drT6eFce9ZZ4SXja2BAd4vCEy4g3Eia+Bjjk9QBvQ4xp98kJVzg9AhrjNiIgtxGYCwmz6DkTktj3gLpELNgruw6YdsifqqbEujyRuBGWMY8devSZCN163XpZPh8yKYPdMLNzZrOipqkdO4idJBK7UgC9QNHSaaQSb9hjx1hqWocAuGnp9KFk4usAGMRWFiZUoBXYtnQbKvXCc4t41GQE7DbMIJZKdVd7FI88diQFoNvSTfLmsIvwskW4bDIGYNXS8WIlrpswGQP7k35/IQIWLaIBT6EdwANN0m1tqJ2ePActHRdcRDKYBXHa04gv7Id81+E5VAaRdxEV9pBAq4dA8UQYZjz4HrF4fXYRyaYjiAYPgXbND2LLg2/O4vWjloZ8S9qQgkXU5iHwYQlDZpMOrfUYk72zRLKfjDHZ19IqvzM6r8kz62NESPmdNzZ0kZD1hnir7Cyou9ggVkzGALy2dOx3ETU7hsYuk92hccc5NCqxLKMzdagqMQsumjDoVjwISdIWU2MAbcD3KAernG7FM5X0wG1Lp/dlG7au9u1Y7ElNawvAWcfyYdiUg3pFbpuyug7aqHjjKPcT7Mdcygu6euCJpcNv4FxURnI/YWM6pZVpPXDfIX+yGmY5XRzbkDVmUyIWmL9ymxyeELyoeiKXVb7j5IjezvYmlNh5hzzJ0aNxXPS4jCnqMqDqk6TVJ6TEFkOMOO4rI+gZV5ihhygZOLurHDsmHM0uGE5+ngjJmSlKY1W9dEXPDrLqbNCnTRfSgzrF2gNgEFKdJn1OqZUY1BcSanEhH7nEenpnRLficUHGjuFa/QJCQmZIf1/iStRyKOrJdCjRMIoCORvILlbvzRe0RBcCP6op6Lgxr/fy/bUYe/7DpIQ/R2L4fcCksCUAAAAASUVORK5CYII="/>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 104 104">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 13.33;
+        stroke-width: 4px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <path class="cls-2" d="m102,52c0-27.61-22.39-50-50-50S2,24.39,2,52s22.39,50,50,50,50-22.39,50-50Z"/>
+    <path class="cls-1" d="m63.25,52c0-6.25-5-11.25-11.25-11.25s-11.25,5-11.25,11.25,5,11.25,11.25,11.25,11.25-5,11.25-11.25"/>
+  </g>
 </svg>

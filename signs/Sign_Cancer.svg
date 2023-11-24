@@ -1,4 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
-  <image width="64" height="64" transform="scale(.75)" xlink:href="data:image/png;base64,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"/>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-2 {
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 4px;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" width="100" height="100"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="surface1">
+      <g class="cls-3">
+        <g id="g15">
+          <path id="path7" class="cls-2" d="m91.67,50c0-23.01-18.65-41.67-41.67-41.67-11.05,0-21.65,4.39-29.46,12.2"/>
+          <path id="path9" class="cls-2" d="m91.67,50c0-7.67-6.22-13.89-13.89-13.89s-13.89,6.22-13.89,13.89,6.22,13.89,13.89,13.89,13.89-6.22,13.89-13.89Z"/>
+          <path id="path11" class="cls-2" d="m8.33,50c0,23.02,18.66,41.67,41.67,41.67,11.05,0,21.65-4.39,29.46-12.2"/>
+          <path id="path13" class="cls-2" d="m8.33,50c0,7.67,6.22,13.89,13.89,13.89s13.89-6.22,13.89-13.89-6.21-13.89-13.89-13.89-13.89,6.22-13.89,13.89Z"/>
+        </g>
+      </g>
+    </g>
+  </g>
 </svg>
