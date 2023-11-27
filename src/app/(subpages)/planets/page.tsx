@@ -6,89 +6,7 @@ import { motion } from "framer-motion";
 import * as React from "react";
 import modalStyles from "@/app/components/modal.module.scss";
 import Modal from "@/app/components/modal";
-
-const planets = [
-  {
-    planet: "Sun",
-    planetImgSrc: "/planets/Planet_Sun.svg",
-    traits: "Identify, Ego, Energy, Vitality",
-    ringStyle: galaxyStyles.ring_0,
-    iconWrapperStyle: galaxyStyles.planet_0,
-    type: "Fundamental Planet",
-  },
-  {
-    planet: "Mercury",
-    planetImgSrc: "/planets/Planet_Mercury.svg",
-    traits: "Communication, Mindset, Expression, Expression, Learning",
-    ringStyle: galaxyStyles.ring_1,
-    iconWrapperStyle: galaxyStyles.planet_1,
-    type: "Personal - Inner Planet",
-  },
-  {
-    planet: "Venus",
-    planetImgSrc: "/planets/Planet_Venus.svg",
-    traits: "Values, Love, Money, Creativity",
-    ringStyle: galaxyStyles.ring_2,
-    iconWrapperStyle: galaxyStyles.planet_2,
-    type: "Personal - Inner Planet",
-  },
-  {
-    planet: "Moon",
-    planetImgSrc: "/planets/Planet_Moon.svg",
-    traits: "Soul, Emotions, Intuition, Unconsciousness",
-    ringStyle: galaxyStyles.ring_3,
-    iconWrapperStyle: galaxyStyles.planet_3,
-    type: "Fundamental Planet",
-  },
-  {
-    planet: "Mars",
-    planetImgSrc: "/planets/Planet_Mars.svg",
-    traits: "Drive, Ambition, Anger, Instincts",
-    ringStyle: galaxyStyles.ring_4,
-    iconWrapperStyle: galaxyStyles.planet_4,
-    type: "Personal - Inner Planet",
-  },
-  {
-    planet: "Jupiter",
-    planetImgSrc: "/planets/Planet_Jupiter.svg",
-    traits: "Growth, Luck, Beliefs, Optimism",
-    ringStyle: galaxyStyles.ring_5,
-    iconWrapperStyle: galaxyStyles.planet_5,
-    type: "Transpersonal - Middle Planet",
-  },
-  {
-    planet: "Saturn",
-    planetImgSrc: "/planets/Planet_Saturn.svg",
-    traits: "Karmin lessons, Restrictions, Structures, Responsivility",
-    ringStyle: galaxyStyles.ring_6,
-    iconWrapperStyle: galaxyStyles.planet_6,
-    type: "Transpersonal - Middle Planet",
-  },
-  {
-    planet: "Uranus",
-    planetImgSrc: "/planets/Planet_Uranus.svg",
-    traits: "Rebellion, Individualization, Freedom, Independence",
-    ringStyle: galaxyStyles.ring_7,
-    iconWrapperStyle: galaxyStyles.planet_7,
-    type: "Generational - Outer Planet",
-  },
-  {
-    planet: "Neptune",
-    planetImgSrc: "/planets/Planet_Neptune.svg",
-    traits: "Imagination, Spirituality, Creativity, Empathy",
-    ringStyle: galaxyStyles.ring_8,
-    iconWrapperStyle: galaxyStyles.planet_8,
-    type: "Generational - Outer Planet",
-  },
-  {
-    planet: "Pluto",
-    planetImgSrc: "/planets/Planet_Pluto.svg",
-    traits: "Power, Intensity, Transformation, Extremes",
-    ringStyle: galaxyStyles.ring_9,
-    iconWrapperStyle: galaxyStyles.planet_9,
-    type: "Generational - Outer Planet",
-  },
-];
+import planets from "../../data/planets.json";
 
 const PlanetsModal = ({
   closeModal,
@@ -153,12 +71,14 @@ const PlanetButton = ({
         " rotate-90 max-md:rotate-0"
       }
     >
-      <Image
-        src={planet.planetImgSrc}
-        width={size}
-        height={size}
-        alt={planet.planet + " symbol"}
-      />
+      <div className="-rotate-45">
+        <Image
+          src={planet.planetImgSrc}
+          width={size}
+          height={size}
+          alt={planet.planet + " symbol"}
+        />
+      </div>
     </button>
   );
 };
@@ -176,11 +96,9 @@ const MotionPlanetButton = ({
   return (
     <motion.button
       className={
-        planet.iconWrapperStyle +
+        galaxyStyles.planet +
         " border-2 border-white rounded-full -rotate-45 " +
-        galaxyStyles.planet_button +
-        " " +
-        galaxyStyles.planet
+        galaxyStyles.planet_button
       }
       initial={{ rotate: 0 }}
       animate={{ rotate: 360 }}
@@ -256,15 +174,9 @@ export default function Planets() {
         <div
           className={galaxyStyles.galaxy + " " + galaxyStyles.galaxy_backdrop}
         >
-          {planets.map((item: any, index: number) => (
+          {planets.planets.map((item: any, index: number) => (
             <div
-              className={
-                galaxyStyles.circle +
-                " " +
-                galaxyStyles.ring +
-                " " +
-                item.ringStyle
-              }
+              className={galaxyStyles.circle + " " + galaxyStyles.ring}
               key={item.planet}
             />
           ))}
@@ -272,15 +184,9 @@ export default function Planets() {
         <div
           className={galaxyStyles.galaxy + " " + galaxyStyles.galaxy_foreground}
         >
-          {planets.map((item: any, index: number) => (
+          {planets.planets.map((item: any, index: number) => (
             <div
-              className={
-                galaxyStyles.circle +
-                " " +
-                galaxyStyles.ring +
-                " " +
-                item.ringStyle
-              }
+              className={galaxyStyles.circle + " " + galaxyStyles.ring}
               key={item.planet}
             >
               {index == 3 ? (
@@ -291,13 +197,7 @@ export default function Planets() {
                   setOpenModal={setModal}
                 />
               ) : (
-                <div className={item.iconWrapperStyle + " -rotate-45"}>
-                  <PlanetButton
-                    planet={item}
-                    size={50}
-                    setOpenModal={setModal}
-                  />
-                </div>
+                <PlanetButton planet={item} size={50} setOpenModal={setModal} />
               )}
             </div>
           ))}

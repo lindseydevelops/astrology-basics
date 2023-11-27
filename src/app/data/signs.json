@@ -1,0 +1,100 @@
+{
+    "signs": [
+        {
+          "sign": "Aries",
+          "signIconSrc": "/signs/Sign_Aries.svg",
+          "modality": "Cardinal",
+          "element": "Fire",
+          "ruler": "Mars",
+          "traits": "Ambition, Leadership, Independence, Passion"
+        },
+        {
+          "sign": "Taurus",
+          "signIconSrc": "/signs/Sign_Taurus.svg",
+          "modality": "Fixed",
+          "element": "Earth",
+          "ruler": "Venus",
+          "traits": "Stability, Hard-working, Sensual, Grounded"
+        },
+        {
+          "sign": "Gemini",
+          "signIconSrc": "/signs/Sign_Gemini.svg",
+          "modality": "Mutable",
+          "element": "Air",
+          "ruler": "Mercury",
+          "traits": "Inquisitve, Social, Witty, Dualistic"
+        },
+        {
+          "sign": "Cancer",
+          "signIconSrc": "/signs/Sign_Cancer.svg",
+          "modality": "Cardinal",
+          "element": "Water",
+          "ruler": "Moon",
+          "traits": "Sensitive, Intuitive, Empathatic, Moody"
+        },
+        {
+          "sign": "Leo",
+          "signIconSrc": "/signs/Sign_Leo.svg",
+          "modality": "Fixed",
+          "element": "Fire",
+          "ruler": "Sun",
+          "traits": "Leadership, Bravery, Prideful, Loyal"
+        },
+        {
+          "sign": "Virgo",
+          "signIconSrc": "/signs/Sign_Virgo.svg",
+          "modality": "Mutable",
+          "element": "Earth",
+          "ruler": "Mercury",
+          "traits": "Logical, Organized, Critical, Perfectionistic"
+        },
+        {
+          "sign": "Libra",
+          "signIconSrc": "/signs/Sign_Libra.svg",
+          "modality": "Cardinal",
+          "element": "Air",
+          "ruler": "Venus",
+          "traits": "Diplomatic, Peace-maker, Harmonious, Indecisive"
+        },
+        {
+          "sign": "Scorpio",
+          "signIconSrc": "/signs/Sign_Scorpio.svg",
+          "modality": "Fixed",
+          "element": "Water",
+          "ruler": "Mars",
+          "traits": "Deep, Intense, Instinctual, Powerful"
+        },
+        {
+          "sign": "Sagittarius",
+          "signIconSrc": "/signs/Sign_Sagittarius.svg",
+          "modality": "Mutable",
+          "element": "Fire",
+          "ruler": "Jupiter",
+          "traits": "Open-minded, Wisdom, Freedom, Spiritual"
+        },
+        {
+          "sign": "Capricorn",
+          "signIconSrc": "/signs/Sign_Capricorn.svg",
+          "modality": "Cardinal",
+          "element": "Earth",
+          "ruler": "Saturn",
+          "traits": "Authoritarian, Responsible, Mature, Serious"
+        },
+        {
+          "sign": "Aquarius",
+          "signIconSrc": "/signs/Sign_Aquarius.svg",
+          "modality": "Fixed",
+          "element": "Air",
+          "ruler": "Saturn",
+          "traits": "Intellectual, Individualistic, Rebellious, Innovative"
+        },
+        {
+          "sign": "Pisces",
+          "signIconSrc": "/signs/Sign_Pisces.svg",
+          "modality": "Mutable",
+          "element": "Water",
+          "ruler": "Jupiter",
+          "traits": "Spiritual, Intuitive, Creative, Idealistic"
+        }
+      ]
+}

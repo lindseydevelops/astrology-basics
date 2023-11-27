@@ -5,117 +5,7 @@ import styles from "./styles.module.scss";
 import modalStyles from "@/app/components/modal.module.scss";
 import Modal from "@/app/components/modal";
 import PageIntro from "@/app/components/pageIntro";
-
-const signs = [
-  {
-    sign: "Aries",
-    signIconSrc: "/signs/Sign_Aries.svg",
-    modality: "Cardinal",
-    element: "Fire",
-    ruler: "Mars",
-    traits: "Ambition, Leadership, Independence, Passion",
-    elementClass: styles.fire_sign,
-  },
-  {
-    sign: "Taurus",
-    signIconSrc: "/signs/Sign_Taurus.svg",
-    modality: "Fixed",
-    element: "Earth",
-    ruler: "Venus",
-    traits: "Stability, Hard-working, Sensual, Grounded",
-    elementClass: styles.earth_sign,
-  },
-  {
-    sign: "Gemini",
-    signIconSrc: "/signs/Sign_Gemini.svg",
-    modality: "Mutable",
-    element: "Air",
-    ruler: "Mercury",
-    traits: "Inquisitve, Social, Witty, Dualistic",
-    elementClass: styles.air_sign,
-  },
-  {
-    sign: "Cancer",
-    signIconSrc: "/signs/Sign_Cancer.svg",
-    modality: "Cardinal",
-    element: "Water",
-    ruler: "Moon",
-    traits: "Sensitive, Intuitive, Empathatic, Moody",
-    elementClass: styles.water_sign,
-  },
-  {
-    sign: "Leo",
-    signIconSrc: "/signs/Sign_Leo.svg",
-    modality: "Fixed",
-    element: "Fire",
-    ruler: "Sun",
-    traits: "Leadership, Bravery, Prideful, Loyal",
-    elementClass: styles.fire_sign,
-  },
-  {
-    sign: "Virgo",
-    signIconSrc: "/signs/Sign_Virgo.svg",
-    modality: "Mutable",
-    element: "Earth",
-    ruler: "Mercury",
-    traits: "Logical, Organized, Critical, Perfectionistic",
-    elementClass: styles.earth_sign,
-  },
-  {
-    sign: "Libra",
-    signIconSrc: "/signs/Sign_Libra.svg",
-    modality: "Cardinal",
-    element: "Air",
-    ruler: "Venus",
-    traits: "Diplomatic, Peace-maker, Harmonious, Indecisive",
-    elementClass: styles.air_sign,
-  },
-  {
-    sign: "Scorpio",
-    signIconSrc: "/signs/Sign_Scorpio.svg",
-    modality: "Fixed",
-    element: "Water",
-    ruler: "Mars",
-    traits: "Deep, Intense, Instinctual, Powerful",
-    elementClass: styles.water_sign,
-  },
-  {
-    sign: "Sagittarius",
-    signIconSrc: "/signs/Sign_Sagittarius.svg",
-    modality: "Mutable",
-    element: "Fire",
-    ruler: "Jupiter",
-    traits: "Open-minded, Wisdom, Freedom, Spiritual",
-    elementClass: styles.fire_sign,
-  },
-  {
-    sign: "Capricorn",
-    signIconSrc: "/signs/Sign_Capricorn.svg",
-    modality: "Cardinal",
-    element: "Earth",
-    ruler: "Saturn",
-    traits: "Authoritarian, Responsible, Mature, Serious",
-    elementClass: styles.earth_sign,
-  },
-  {
-    sign: "Aquarius",
-    signIconSrc: "/signs/Sign_Aquarius.svg",
-    modality: "Fixed",
-    element: "Air",
-    ruler: "Saturn",
-    traits: "Intellectual, Individualistic, Rebellious, Innovative",
-    elementClass: styles.air_sign,
-  },
-  {
-    sign: "Pisces",
-    signIconSrc: "/signs/Sign_Pisces.svg",
-    modality: "Mutable",
-    element: "Water",
-    ruler: "Jupiter",
-    traits: "Spiritual, Intuitive, Creative, Idealistic",
-    elementClass: styles.water_sign,
-  },
-];
+import signs from "../../data/signs.json";
 
 const SignCard = ({ sign, setOpenModal }: { sign: any; setOpenModal: any }) => {
   React.useEffect(() => {
@@ -127,12 +17,14 @@ const SignCard = ({ sign, setOpenModal }: { sign: any; setOpenModal: any }) => {
     });
   });
   return (
-    <div className={"flex w-full p-3 relative flex-1 min-h-full "}>
+    <div
+      className={
+        "flex w-full p-3 relative flex-1 min-h-full " + styles.sign_card
+      }
+    >
       <button
         className={
           styles.sign +
-          " " +
-          sign.elementClass +
           " h-52 w-full flex flex-col justify-center items-center shadow-md rounded-md min-h-full hover:-translate-y-3"
         }
         onClick={() =>
@@ -231,7 +123,7 @@ export default function Signs() {
           "w-full grid grid-flow-row grid-cols-3 grid-rows-12 max-md:grid-cols-2 max-md:grid-cols-1"
         }
       >
-        {signs.map((item: any, index: number) => (
+        {signs.signs.map((item: any, index: number) => (
           <SignCard sign={item} setOpenModal={setModal} key={item.sign} />
         ))}
         {modal.show && modal.data && (

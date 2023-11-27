@@ -3,35 +3,41 @@ $earth_color: #509724;
 $air_color: #fbb03b;
 $water_color: #0000ff;
 
-.fire_sign {
-    background-color: $fire_color;
-    &:hover {
-        filter: brightness(150%);
+.sign_card:nth-of-type(4n + 1){
+    .sign {
+        background-color: $fire_color;
+        &:hover {
+            filter: brightness(150%);
+        }
     }
 }
-.earth_sign {
-    background-color: $earth_color;
-    &:hover {
-        filter: brightness(130%);
+.sign_card:nth-of-type(4n + 2){
+    .sign {
+        background-color: $earth_color;
+        &:hover {
+            filter: brightness(130%);
+        }
     }
 }
-.air_sign {
-    background-color: $air_color;
-    &:hover {
-        filter: brightness(120%);
+.sign_card:nth-of-type(4n + 3){
+    .sign {
+        background-color: $air_color;
+        &:hover {
+            filter: brightness(120%);
+        }
     }
 }
-.water_sign {
-    background-color: $water_color;
-    &:hover {
-        filter: brightness(200%);
+.sign_card:nth-of-type(4n){
+    .sign {
+        background-color: $water_color;
+        &:hover {
+            filter: brightness(200%);
+        }
     }
 }
-
 .sign {
     transition: flex .5s ease-in-out;
 }
-
 .sign.active {
     flex: 5;  
 }

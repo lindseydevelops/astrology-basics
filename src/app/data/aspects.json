@@ -1,0 +1,44 @@
+{
+    "aspects": [
+        {
+          "aspect": "Conjunction",
+          "imgIconSrc": "/aspects/Aspect_Conjunction.svg",
+          "imgAngleSrc": "/aspects/Aspect_Ex_Conjunction_2.svg",
+          "degrees": "0°-10°",
+          "traits": "Blended, United, Coupled",
+          "find": "Each Point can be within 0°-10° away from your planet, asteroid, node, etc (whatever you are tracking)."
+        },
+        {
+          "aspect": "Square",
+          "imgIconSrc": "/aspects/Aspect_Square.svg",
+          "imgAngleSrc": "/aspects/Aspect_Ex_Square_2.svg",
+          "degrees": "90°",
+          "traits": "Challenge, Tension, Strength",
+          "find": "Each Point can be found 90° away from your planet, asteroid, node, etc (whatever you are tracking)."
+        },
+        {
+          "aspect": "Trine",
+          "imgIconSrc": "/aspects/Aspect_Trine.svg",
+          "imgAngleSrc": "/aspects/Aspect_Ex_Trine_2.svg",
+          "degrees": "120°",
+          "traits": "Flow, Harmony, Support",
+          "find": "Each Point can be found 120° away from your planet, asteroid, node, etc (whatever you are tracking)."
+        },
+        {
+          "aspect": "Sextile",
+          "imgIconSrc": "/aspects/Aspect_Sextile.svg",
+          "imgAngleSrc": "/aspects/Aspect_Ex_Sextile_2.svg",
+          "degrees": "60°",
+          "traits": "Stimulating, Creative, Compatible",
+          "find": "Each Point can be found 60° away from your planet, asteroid, node, etc (whatever you are tracking)."
+        },
+        {
+          "aspect": "Opposition",
+          "imgIconSrc": "/aspects/Aspect_Opposition.svg",
+          "imgAngleSrc": "/aspects/Aspect_Ex_Opposition_2.svg",
+          "degrees": "180°",
+          "traits": "Inner Conflict, Opposite, Duality",
+          "find": "Each Point can be found exactly 180° away from your planet, asteroid, node, etc (whatever you are tracking)."
+        }
+    ]
+}
