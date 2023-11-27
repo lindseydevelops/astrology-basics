@@ -1,0 +1,74 @@
+{
+    "planets": [
+      {
+        "planet": "Sun",
+        "planetImgSrc": "/planets/Planet_Sun.svg",
+        "traits": "Identify, Ego, Energy, Vitality",
+        "type": "Fundamental Planet",
+        "duration": 0
+      },
+      {
+        "planet": "Mercury",
+        "planetImgSrc": "/planets/Planet_Mercury.svg",
+        "traits": "Communication, Mindset, Expression, Expression, Learning",
+        "type": "Personal - Inner Planet",
+        "duration": 3
+      },
+      {
+        "planet": "Venus",
+        "planetImgSrc": "/planets/Planet_Venus.svg",
+        "traits": "Values, Love, Money, Creativity",
+        "type": "Personal - Inner Planet",
+        "duration": 5
+      },
+      {
+        "planet": "Moon",
+        "planetImgSrc": "/planets/Planet_Moon.svg",
+        "traits": "Soul, Emotions, Intuition, Unconsciousness",
+        "type": "Fundamental Planet",
+        "duration": 7
+      },
+      {
+        "planet": "Mars",
+        "planetImgSrc": "/planets/Planet_Mars.svg",
+        "traits": "Drive, Ambition, Anger, Instincts",
+        "type": "Personal - Inner Planet",
+        "duration": 9
+      },
+      {
+        "planet": "Jupiter",
+        "planetImgSrc": "/planets/Planet_Jupiter.svg",
+        "traits": "Growth, Luck, Beliefs, Optimism",
+        "type": "Transpersonal - Middle Planet",
+        "duration": 15
+      },
+      {
+        "planet": "Saturn",
+        "planetImgSrc": "/planets/Planet_Saturn.svg",
+        "traits": "Karmin lessons, Restrictions, Structures, Responsivility",
+        "type": "Transpersonal - Middle Planet",
+        "duration": 17
+      },
+      {
+        "planet": "Uranus",
+        "planetImgSrc": "/planets/Planet_Uranus.svg",
+        "traits": "Rebellion, Individualization, Freedom, Independence",
+        "type": "Generational - Outer Planet",
+        "duration": 19
+      },
+      {
+        "planet": "Neptune",
+        "planetImgSrc": "/planets/Planet_Neptune.svg",
+        "traits": "Imagination, Spirituality, Creativity, Empathy",
+        "type": "Generational - Outer Planet",
+        "duration": 22
+      },
+      {
+        "planet": "Pluto",
+        "planetImgSrc": "/planets/Planet_Pluto.svg",
+        "traits": "Power, Intensity, Transformation, Extremes",
+        "type": "Generational - Outer Planet",
+        "duration": 24
+      }
+    ]
+}

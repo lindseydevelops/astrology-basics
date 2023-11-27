@@ -4,117 +4,7 @@ import Modal from "@/app/components/modal";
 import * as React from "react";
 import modalStyles from "@/app/components/modal.module.scss";
 import PageIntro from "@/app/components/pageIntro";
-
-const houses = [
-  {
-    house: "12",
-    houseTitle: "12th House",
-    houseStyle: styles.house_12,
-    nativeSign: "Pisces",
-    nativeRuler: "Jupiter",
-    traits: "Privacy, Solitude, Awakening",
-    focus: "Mental Abstract Matters",
-  },
-  {
-    house: "11",
-    houseTitle: "11th House",
-    houseStyle: styles.house_11,
-    nativeSign: "Aquarius",
-    nativeRuler: "Saturn",
-    traits: "Social Network, Groups, Aspirations, Hopes",
-    focus: "Mental Abstract Matters",
-  },
-  {
-    house: "10",
-    houseTitle: "10th House",
-    houseStyle: styles.house_10,
-    nativeSign: "Capricorn",
-    nativeRuler: "Saturn",
-    traits: "Career, Reputation, Public Persona, Goals",
-    focus: "Mental Abstract Matters",
-  },
-  {
-    house: "9",
-    houseTitle: "9th House",
-    houseStyle: styles.house_9,
-    nativeSign: "Sagittarius",
-    nativeRuler: "Jupiter",
-    traits: "Perspectives, Beliefs, Traditions, Education",
-    focus: "Mental Abstract Matters",
-  },
-  {
-    house: "8",
-    houseTitle: "8th House",
-    houseStyle: styles.house_8,
-    nativeSign: "Scorpio",
-    nativeRuler: "Mars",
-    traits: "Change, Transition, Investments, Taxes",
-    focus: "Mental Abstract Matters",
-  },
-  {
-    house: "7",
-    houseTitle: "7th House",
-    houseStyle: styles.house_7,
-    nativeSign: "Libra",
-    nativeRuler: "Venus",
-    traits: "Relationships, Partneryships, The Other, Marriage",
-    focus: "Mental Abstract Matters",
-  },
-  {
-    house: "6",
-    houseTitle: "6th House",
-    houseStyle: styles.house_6,
-    nativeSign: "Virgo",
-    nativeRuler: "Mercury",
-    traits: "Responsibilities, Routines, Hygine, Health",
-    focus: "Body Corporal Matters",
-  },
-  {
-    house: "5",
-    houseTitle: "5th House",
-    houseStyle: styles.house_5,
-    nativeSign: "Leo",
-    nativeRuler: "Sun",
-    traits: "Creativity, Pleasure, Romance, Children",
-    focus: "Body Corporal Matters",
-  },
-  {
-    house: "4",
-    houseTitle: "4th House",
-    houseStyle: styles.house_4,
-    nativeSign: "Cancer",
-    nativeRuler: "Moon",
-    traits: "Home, Family, Ancesstors, Karma",
-    focus: "Body Corporal Matters",
-  },
-  {
-    house: "3",
-    houseTitle: "3rd House",
-    houseStyle: styles.house_3,
-    nativeSign: "Gemini",
-    nativeRuler: "Mercury",
-    traits: "Communication, Tediousness, Details, Cycles",
-    focus: "Body Corporal Matters",
-  },
-  {
-    house: "2",
-    houseTitle: "2nd House",
-    houseStyle: styles.house_2,
-    nativeSign: "Taurus",
-    nativeRuler: "Venus",
-    traits: "Money, Possessions, Tangibility, Values",
-    focus: "Body Corporal Matters",
-  },
-  {
-    house: "1",
-    houseTitle: "1st House",
-    houseStyle: styles.house_1,
-    nativeSign: "Aries",
-    nativeRuler: "Mars",
-    traits: "The Self, Appearance, Physical Body, Facade",
-    focus: "Body Corporal Matters",
-  },
-];
+import houses from "../../data/houses.json";
 
 const House = ({
   item,
@@ -214,18 +104,18 @@ export default function Houses() {
       </div>
       <div className={styles.houses + " overflow-x-hidden"}>
         <div className={styles.houses_divided}>
-          {houses.map((item: any, index: number) => (
+          {houses.houses.map((item: any, index: number) => (
             <div
-              className={styles.divider + " " + item.houseStyle}
+              className={styles.divider + " " + styles.house}
               key={item.house}
             />
           ))}
-          {houses.map((item: any, index: number) => (
+          {houses.houses.map((item: any, index: number) => (
             <House
               item={item}
               setOpenModal={setModal}
               key={item.house}
-              style={item.houseStyle}
+              style={styles.house}
             />
           ))}
         </div>

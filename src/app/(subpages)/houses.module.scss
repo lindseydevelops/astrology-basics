@@ -84,43 +84,42 @@ $houses_radius: 76vw;
   transform: rotate(15deg);
   aspect-ratio: 1/1;
 }
-.house_1 {
+.house:nth-of-type(1), .house:nth-of-type(13) {
   --percent: -120;
 }
-.house_2 {
+.house:nth-of-type(2), .house:nth-of-type(14) {
   --percent: -150;
 }
-.house_3 {
+.house:nth-of-type(3), .house:nth-of-type(15) {
   --percent: 180;
 }
-.house_4 {
+.house:nth-of-type(4), .house:nth-of-type(16) {
   --percent: 150;
 }
-.house_5 {
+.house:nth-of-type(5), .house:nth-of-type(17) {
   --percent: 120;
 }
-.house_6 {
+.house:nth-of-type(6), .house:nth-of-type(18) {
   --percent: 90;
 }
-.house_7 {
+.house:nth-of-type(7), .house:nth-of-type(19) {
   --percent: 60;
 }
-.house_8 {
+.house:nth-of-type(8), .house:nth-of-type(20) {
   --percent: 30;
 }
-.house_9 {
+.house:nth-of-type(9) .house:nth-of-type(21) {
   --percent: 0;
 }
-.house_10 {
+.house:nth-of-type(10), .house:nth-of-type(22) {
   --percent: -30;
 }
-.house_11 {
+.house:nth-of-type(11), .house:nth-of-type(23) {
   --percent: -60;
 }
-.house_12 {
+.house:nth-of-type(12), .house:nth-of-type(24) {
   --percent: -90;
 }
-
 .house_button:hover {
   border-radius: 50%;
   background: $button_glow;
