@@ -9,6 +9,7 @@ const bodyFont = localFont({ src: "./Andalemo.ttf" });
 export const metadata: Metadata = {
   title: "Astrology Basics",
   description: "Astrology Basics Learning Material",
+  metadataBase: new URL("https://astrology-basics.web.app/"),
   openGraph: {
     title: "Astrology Basics",
     description: "Astrology Basics Learning Material",
@@ -17,8 +18,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "Astro_OGP.png",
-        width: 400,
-        height: 300,
+        width: 1600,
+        height: 1200,
       },
     ],
     locale: "en_US",
