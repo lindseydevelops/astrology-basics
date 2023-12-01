@@ -1,100 +1,100 @@
 {
     "houses": [
-        {
-          "house": "12",
-          "houseTitle": "12th House",
-          "nativeSign": "Pisces",
-          "nativeRuler": "Jupiter",
-          "traits": "Privacy, Solitude, Awakening",
-          "focus": "Mental Abstract Matters"
-        },
-        {
-          "house": "11",
-          "houseTitle": "11th House",
-          "nativeSign": "Aquarius",
-          "nativeRuler": "Saturn",
-          "traits": "Social Network, Groups, Aspirations, Hopes",
-          "focus": "Mental Abstract Matters"
-        },
-        {
-          "house": "10",
-          "houseTitle": "10th House",
-          "nativeSign": "Capricorn",
-          "nativeRuler": "Saturn",
-          "traits": "Career, Reputation, Public Persona, Goals",
-          "focus": "Mental Abstract Matters"
-        },
-        {
-          "house": "9",
-          "houseTitle": "9th House",
-          "nativeSign": "Sagittarius",
-          "nativeRuler": "Jupiter",
-          "traits": "Perspectives, Beliefs, Traditions, Education",
-          "focus": "Mental Abstract Matters"
-        },
-        {
-          "house": "8",
-          "houseTitle": "8th House",
-          "nativeSign": "Scorpio",
-          "nativeRuler": "Mars",
-          "traits": "Change, Transition, Investments, Taxes",
-          "focus": "Mental Abstract Matters"
-        },
-        {
-          "house": "7",
-          "houseTitle": "7th House",
-          "nativeSign": "Libra",
-          "nativeRuler": "Venus",
-          "traits": "Relationships, Partneryships, The Other, Marriage",
-          "focus": "Mental Abstract Matters"
-        },
-        {
-          "house": "6",
-          "houseTitle": "6th House",
-          "nativeSign": "Virgo",
-          "nativeRuler": "Mercury",
-          "traits": "Responsibilities, Routines, Hygine, Health",
-          "focus": "Body Corporal Matters"
-        },
-        {
-          "house": "5",
-          "houseTitle": "5th House",
-          "nativeSign": "Leo",
-          "nativeRuler": "Sun",
-          "traits": "Creativity, Pleasure, Romance, Children",
-          "focus": "Body Corporal Matters"
-        },
-        {
-          "house": "4",
-          "houseTitle": "4th House",
-          "nativeSign": "Cancer",
-          "nativeRuler": "Moon",
-          "traits": "Home, Family, Ancesstors, Karma",
-          "focus": "Body Corporal Matters"
-        },
-        {
-          "house": "3",
-          "houseTitle": "3rd House",
-          "nativeSign": "Gemini",
-          "nativeRuler": "Mercury",
-          "traits": "Communication, Tediousness, Details, Cycles",
-          "focus": "Body Corporal Matters"
-        },
-        {
-          "house": "2",
-          "houseTitle": "2nd House",
-          "nativeSign": "Taurus",
-          "nativeRuler": "Venus",
-          "traits": "Money, Possessions, Tangibility, Values",
-          "focus": "Body Corporal Matters"
-        },
-        {
-          "house": "1",
-          "houseTitle": "1st House",
-          "nativeSign": "Aries",
-          "nativeRuler": "Mars",
-          "traits": "The Self, Appearance, Physical Body, Facade",
-          "focus": "Body Corporal Matters"
-        }
-      ]
+      {
+        "house": "1",
+        "houseTitle": "1st House",
+        "nativeSign": "Aries",
+        "nativeRuler": "Mars",
+        "traits": "The Self, Appearance, Physical Body, Facade",
+        "focus": "Body Corporal Matters"
+      },
+      {
+        "house": "2",
+        "houseTitle": "2nd House",
+        "nativeSign": "Taurus",
+        "nativeRuler": "Venus",
+        "traits": "Money, Possessions, Tangibility, Values",
+        "focus": "Body Corporal Matters"
+      },
+      {
+        "house": "3",
+        "houseTitle": "3rd House",
+        "nativeSign": "Gemini",
+        "nativeRuler": "Mercury",
+        "traits": "Communication, Tediousness, Details, Cycles",
+        "focus": "Body Corporal Matters"
+      },
+      {
+        "house": "4",
+        "houseTitle": "4th House",
+        "nativeSign": "Cancer",
+        "nativeRuler": "Moon",
+        "traits": "Home, Family, Ancesstors, Karma",
+        "focus": "Body Corporal Matters"
+      },
+      {
+        "house": "5",
+        "houseTitle": "5th House",
+        "nativeSign": "Leo",
+        "nativeRuler": "Sun",
+        "traits": "Creativity, Pleasure, Romance, Children",
+        "focus": "Body Corporal Matters"
+      },
+      {
+        "house": "6",
+        "houseTitle": "6th House",
+        "nativeSign": "Virgo",
+        "nativeRuler": "Mercury",
+        "traits": "Responsibilities, Routines, Hygine, Health",
+        "focus": "Body Corporal Matters"
+      },
+      {
+        "house": "7",
+        "houseTitle": "7th House",
+        "nativeSign": "Libra",
+        "nativeRuler": "Venus",
+        "traits": "Relationships, Partneryships, The Other, Marriage",
+        "focus": "Mental Abstract Matters"
+      },
+      {
+        "house": "8",
+        "houseTitle": "8th House",
+        "nativeSign": "Scorpio",
+        "nativeRuler": "Mars",
+        "traits": "Change, Transition, Investments, Taxes",
+        "focus": "Mental Abstract Matters"
+      },
+      {
+        "house": "9",
+        "houseTitle": "9th House",
+        "nativeSign": "Sagittarius",
+        "nativeRuler": "Jupiter",
+        "traits": "Perspectives, Beliefs, Traditions, Education",
+        "focus": "Mental Abstract Matters"
+      },
+      {
+        "house": "10",
+        "houseTitle": "10th House",
+        "nativeSign": "Capricorn",
+        "nativeRuler": "Saturn",
+        "traits": "Career, Reputation, Public Persona, Goals",
+        "focus": "Mental Abstract Matters"
+      },
+      {
+        "house": "11",
+        "houseTitle": "11th House",
+        "nativeSign": "Aquarius",
+        "nativeRuler": "Saturn",
+        "traits": "Social Network, Groups, Aspirations, Hopes",
+        "focus": "Mental Abstract Matters"
+      },
+      {
+        "house": "12",
+        "houseTitle": "12th House",
+        "nativeSign": "Pisces",
+        "nativeRuler": "Jupiter",
+        "traits": "Privacy, Solitude, Awakening",
+        "focus": "Mental Abstract Matters"
+      }
+    ]
 }

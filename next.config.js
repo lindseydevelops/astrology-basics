@@ -14,11 +14,11 @@ if (isGithubActions) {
 }
 
 const nextConfig = {
-  output: "export",
+  //output: "export",
   sassOptions: {
     includePaths: [path.join(__dirname, "styles")],
   },
-  assetPrefix: assetPrefix,
+  /**assetPrefix: assetPrefix,
   basePath: basePath,
   images: {
     remotePatterns: [
@@ -27,7 +27,7 @@ const nextConfig = {
         hostname: "personal-135707729.imgix.net",
       },
     ],
-  },
+  },*/
 };
 
 module.exports = nextConfig;
