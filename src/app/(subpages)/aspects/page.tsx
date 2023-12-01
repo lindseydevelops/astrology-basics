@@ -55,13 +55,15 @@ const AspectContent = () => {
               transition={{ duration: 10, repeat: Infinity }}
               className={"absolute"}
             >
-              <Image
-                src={item.imgAngleSrc}
-                width={560}
-                height={560}
-                objectFit="contain"
-                alt="aspect angle view"
-              />
+              <div className={styles.aspect_image}>
+                <Image
+                  src={item.imgAngleSrc}
+                  width={560}
+                  height={560}
+                  objectFit="contain"
+                  alt="aspect angle view"
+                />
+              </div>
             </motion.div>
           </div>
           <div className={"flex flex-col w-full pt-10 text-xl"}>

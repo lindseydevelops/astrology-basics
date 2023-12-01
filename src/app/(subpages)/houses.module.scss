@@ -131,3 +131,14 @@ $houses_radius: 76vw;
     box-shadow: 0px 0px 2vw 2vw $button_glow;
   }
 }
+.aspect_image {
+  width: 100%;
+}
+@media (max-width: 659px) {
+  .aspect_image {
+    img {
+      height: 85vw;
+    }
+  }
+}
+
